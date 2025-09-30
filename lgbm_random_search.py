@@ -4,9 +4,9 @@ from sklearn.model_selection import RandomizedSearchCV
 from scipy.stats import randint, uniform
 
 # 데이터 불러오기
-print("Loading data...")
-train = pd.read_csv('assets/train.csv')
-test = pd.read_csv('assets/test.csv')
+print("Loading feature-engineered data...")
+train = pd.read_csv('assets/train_fe.csv')
+test = pd.read_csv('assets/test_fe.csv')
 submission = pd.read_csv('assets/sample_submission.csv')
 
 # 데이터 준비
